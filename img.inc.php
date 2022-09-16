@@ -1,3 +1,3 @@
 <div> 
-    <img src="img/php_01.jpg" alt="img">
+    <img src="img/kali_img.jpg" alt="kali_img">
 </div>   
