@@ -108,6 +108,7 @@ h1 {
 }
 
 .footer {
+  color: #fff;
   background-color: #5882fa;
   flex: 0 0 auto;
 }

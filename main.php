@@ -21,22 +21,22 @@
 
         <div class="data">
           <div class="myImg">
-          <?php include 'img.inc.php' ?>                   
-        </div>
+          <?php echo'<img src="./img/kali_img.jpg">'; ?>                   
+          </div>
 
-        <div class="fullname">
-          <p> Меня зовут 
-          <?php echo $name, ' ', $surname . '<br>'; 
-                echo 'город', ' ', $city; ?>                                      
-          </p> 
+          <div class="fullname">
+             <p> Меня зовут 
+             <?php echo $name , ' ', $surname . '<br>'; 
+                   echo 'город', ' ', $city; ?>                                      
+             </p> 
            
-          <p> Мне
-          <?php  echo $age;   ?>          
-          лет </p>
-          <p> Мы научились создавать переменные </p>
-          <p> Изучили простые операции с ними </p>
+             <p> Мне
+             <?php  echo $age;   ?>          
+             лет </p>
+             <p> Мы научились создавать переменные </p>
+             <p> Изучили простые операции с ними </p>
+          </div>
         </div>
-    </div>
 
     <div class="knowledge">
                                    
@@ -44,13 +44,16 @@
       <?php   echo $a, ' ', $b, ' ', $c; ?> <br>
                                        
       <?php
-           $a = 10;
-          $b = 20;
+          $a = 40;
+          $b = 35;
           $c = $a + $b;
           echo $c;
-      ?>   <br>                
-        <?php
-          echo $d;
+      ?> 
+        
+      <br> 
+
+      <?php
+        echo $d;
       ?> 
 
     </div>
