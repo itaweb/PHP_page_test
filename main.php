@@ -17,7 +17,7 @@
      
     <div class="about_me">
          
-      <h1>  <?php  echo $p  ?> </h1>
+      <h1>  <?php  echo $helloText  ?> </h1>
 
         <div class="data">
           <div class="myImg">
